@@ -31,9 +31,9 @@ ul {
 li {
     font-size: 18px; /* Increase font size */
     font-weight: bold; /* Make the font bolder */
-    line-height: 0.2; /* Increase line spacing */
+    line-height: 0.1; /* Increase line spacing */
     margin: 20px 0; /* Add more space between list items */
-    padding: 10px; /* Add padding inside each list item */
+    padding: 5px; /* Add padding inside each list item */
     background-color: #fff; /* Optional: Add a background color */
     border-radius: 5px; /* Optional: Round the corners */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Add a subtle shadow */
