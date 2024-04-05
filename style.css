@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px; /* Maximum width to ensure content doesn't get too stretched on large screens */
+    margin: auto; /* Center the layout */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make the font bolder */
+    line-height: 0.2; /* Increase line spacing */
+    margin: 20px 0; /* Add more space between list items */
+    padding: 10px; /* Add padding inside each list item */
+    background-color: #fff; /* Optional: Add a background color */
+    border-radius: 5px; /* Optional: Round the corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Add a subtle shadow */
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category {
+    height: 150px; /* Adjust based on your preference */
+    margin-bottom: 15px; /* Add some space between categories */
+    border-radius: 8px; /* Optional: for rounded corners */
+    overflow: hidden; /* Ensures the border-radius applies to the background image */
+}
+
+.category a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #0c495f; /* Ensure text is visible on your background */
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+    font-size: 40px;
+    font-style:inherit;
+}
+
+.category a:hover {
+    transform: scale(1.05); /* Slightly enlarge the item on hover */
+}
+
+.category-coffee a { background-image: url('kenoh.jpeg');
+
+}
+.category-tea a { background-image: url('kenafe.webp'); }
+.category-desserts a { background-image: url('milkshake.jpg'); }
+.category-sandwiches a { background-image: url('hamcoffee.jpg'); }
+.category-smoothies a { background-image: url('colddrink.jpg'); }
+
+#logo {
+    height: auto; /* Adjust based on your desired size */
+    width: 110px; /* Maintains the aspect ratio */
+    margin-right: 20px; /* Optional: Adjusts space around the logo */
+}
+
+.back-button-container {
+    text-align: center; /* Center the button container */
+    margin: 0px 0; /* Add some space around the container */
+}
+
+.back-button {
+    display: inline-block; /* Allows setting padding and margins */
+    background-color: #fbf8f8; /* Button background color */
+    color: #0e0e0e; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.back-button:hover {
+    background-color: #faf5f5; /* Darker shade on hover for visual feedback */
+}
+
+.price {
+    float: right; /* Position the price to the right */
+    background-color: #f8f8f8; /* Light background for the price tag */
+    padding: 2px 5px; /* Padding around the price text */
+    border-radius: 3px; /* Rounded corners for the price tag */
+    font-weight: bold; /* Make the price text bold */
+    margin-left: 20px; /* Increased space between the item name and the price */
+}
